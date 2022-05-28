@@ -16,13 +16,12 @@ body {
 
 .link {
   text-decoration: none;
-
 }
 .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  letter-spacing: 0.03em
+  letter-spacing: 0.03em;
   color: var(--main-title-color);
 }
 
@@ -124,7 +123,6 @@ body {
 
 /*-------------BENEFITS------------*/
 
-
 .benefits-title {
   font-weight: 700;
   font-size: 14px;
@@ -159,7 +157,6 @@ body {
 }
 
 .command-title {
-  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -214,7 +211,8 @@ body {
 
 /*------------Portfolio------------*/
 
-.departments-btn {
+.portfolio-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -224,7 +222,7 @@ body {
   background: #f5f4fa;
 }
 
-.project-title {
+.portfolio-project-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -232,7 +230,7 @@ body {
   color: var(--main-title-color);
 }
 
-.project-text {
+.portfolio-project-text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
