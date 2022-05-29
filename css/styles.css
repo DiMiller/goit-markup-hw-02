@@ -38,6 +38,28 @@ body {
   margin: -1px;
 }
 
+.p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+.container {
+  width: 1200;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /*----------header------------*/
 .header-logo-accent {
   font-family: "Raleway";
@@ -106,6 +128,10 @@ body {
 }
 
 .hero-btn {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -113,7 +139,6 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--accent-color);
-  border-radius: 4px;
 }
 
 .hero-btn:hover,
