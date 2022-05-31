@@ -64,6 +64,10 @@ ol {
 
 /*----------header------------*/
 
+.header {
+  outline: 1px solid #ececec;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -285,6 +289,9 @@ ol {
 .command-list .command-item + .command-item {
   margin-left: 30px;
 }
+.command-item {
+  border: 1px solid #eeeeee;
+}
 
 .command-title {
   margin-bottom: 10px;
@@ -335,10 +342,12 @@ ol {
   list-style: none;
 }
 
-.footer-address-link {
+.footer-item:not(:last-child) {
   margin-top: 0;
   margin-bottom: 9px;
+}
 
+.footer-address-link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -347,8 +356,6 @@ ol {
 }
 
 .footer-mail-link {
-  margin-top: 0;
-  margin-bottom: 9px;
   text-decoration: none;
 
   font-size: 14px;
@@ -370,10 +377,13 @@ ol {
 
 /*------------Portfolio------------*/
 
+.portfolio {
+  padding: 94px 0;
+}
+
 .portfolio-list {
   display: flex;
   justify-content: center;
-  margin-top: 93px;
   margin-bottom: 50px;
 }
 
@@ -402,7 +412,7 @@ ol {
   display: inline-block;
   border-radius: 4px;
   padding: 6px 22px;
-  border: 1px solid var(--accent-color);
+  border: 1px transparent;
 
   font-family: inherit;
   font-weight: 500;
@@ -423,6 +433,7 @@ ol {
   width: 370px;
   margin-bottom: 30px;
   margin-right: 30px;
+  border: 1px solid #eeeeee;
 }
 
 .portfolio-project-item:nth-child(3n) {
@@ -435,6 +446,11 @@ ol {
 .img-project {
   margin-bottom: 20px;
 }
+
+.name-project {
+  padding: 20px 24px;
+}
+
 .portfolio-project-title {
   margin-bottom: 4px;
 
@@ -446,7 +462,6 @@ ol {
 }
 
 .portfolio-project-text {
-  padding-bottom: 20px;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;

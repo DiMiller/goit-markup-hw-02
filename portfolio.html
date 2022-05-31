@@ -43,14 +43,12 @@
           </ul>
           <ul class="header-communication-list list">
             <li class="header-communication-link link">
-              <a
-                href="mailto:info@devstudio.com"
-                class="header-mail-link .link current"
+              <a href="mailto:info@devstudio.com" class="header-mail-link link"
                 >info@devstudio.com</a
               ><br />
             </li>
-            <li class="header-communication-link link">
-              <a href="tel:+380961111111" class="header-tel-link"
+            <li class="header-communication-link .link current link">
+              <a href="tel:+380961111111" class="header-tel-link link"
                 >+38 096 111 11 11</a
               >
             </li>
@@ -99,8 +97,10 @@
                   alt="две женщины и мужчина"
                   width="370"
                 />
-                <h2 class="portfolio-project-title">Технокряк</h2>
-                <p class="portfolio-project-text text">Веб-сайт</p>
+                <div class="name-project">
+                  <h2 class="portfolio-project-title">Технокряк</h2>
+                  <p class="portfolio-project-text text">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-project-item">
@@ -111,10 +111,12 @@
                   alt="два баскетболиста"
                   width="370"
                 />
-                <h2 class="portfolio-project-title">
-                  Постер New Orlean vs Golden Star
-                </h2>
-                <p class="portfolio-project-text text">Дизайн</p>
+                <div class="name-project">
+                  <h2 class="portfolio-project-title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="portfolio-project-text text">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-project-item">
@@ -125,8 +127,10 @@
                   alt="эмблема ресторана"
                   width="370"
                 />
-                <h2 class="portfolio-project-title">Ресторан Seafood</h2>
-                <p class="portfolio-project-text text">Приложение</p>
+                <div class="name-project">
+                  <h2 class="portfolio-project-title">Ресторан Seafood</h2>
+                  <p class="portfolio-project-text text">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-project-item">
@@ -137,8 +141,10 @@
                   alt="наушники"
                   width="370"
                 />
-                <h2 class="portfolio-project-title">Проект Prime</h2>
-                <p class="portfolio-project-text text">Маркетинг</p>
+                <div class="name-project">
+                  <h2 class="portfolio-project-title">Проект Prime</h2>
+                  <p class="portfolio-project-text text">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-project-item">
@@ -149,8 +155,10 @@
                   alt="две коробки"
                   width="370"
                 />
-                <h2 class="portfolio-project-title">Проект Boxes</h2>
-                <p class="portfolio-project-text text">Приложение</p>
+                <div class="name-project">
+                  <h2 class="portfolio-project-title">Проект Boxes</h2>
+                  <p class="portfolio-project-text text">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-project-item">
@@ -161,10 +169,12 @@
                   alt="монитор"
                   width="370"
                 />
-                <h2 class="portfolio-project-title">
-                  Inspiration has no Borders
-                </h2>
-                <p class="portfolio-project-text text">Веб-сайт</p>
+                <div class="name-project">
+                  <h2 class="portfolio-project-title">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="portfolio-project-text text">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-project-item">
@@ -175,8 +185,12 @@
                   alt="книга"
                   width="370"
                 />
-                <h2 class="portfolio-project-title">Издание Limited Edition</h2>
-                <p class="portfolio-project-text text">Дизайн</p>
+                <div class="name-project">
+                  <h2 class="portfolio-project-title">
+                    Издание Limited Edition
+                  </h2>
+                  <p class="portfolio-project-text text">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-project-item">
@@ -187,8 +201,10 @@
                   alt="бирка"
                   width="370"
                 />
-                <h2 class="portfolio-project-title">Проект LAB</h2>
-                <p class="portfolio-project-text text">Маркетинг</p>
+                <div class="name-project">
+                  <h2 class="portfolio-project-title">Проект LAB</h2>
+                  <p class="portfolio-project-text text">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-project-item">
@@ -199,8 +215,10 @@
                   alt="ноутбук"
                   width="370"
                 />
-                <h2 class="portfolio-project-title">Growing Business</h2>
-                <p class="portfolio-project-text text">Приложение</p>
+                <div class="name-project">
+                  <h2 class="portfolio-project-title">Growing Business</h2>
+                  <p class="portfolio-project-text text">Приложение</p>
+                </div>
               </a>
             </li>
           </ul>
@@ -213,15 +231,21 @@
           <span class="footer-logo-accent">Web</span>Studio
         </h2>
         <ul class="footer-list">
-          <address class="footer-address-link link">
-            г. Киев, пр-т Леси Украинки, 26
-          </address>
-          <a href="mailto:info@devstudio.com" class="footer-mail-link link"
-            >info@devstudio.com</a
-          ><br />
-          <a href="tel:+380961111111" class="footer-tel-link link"
-            >+38 096 111 11 11</a
-          >
+          <li class="footer-item link">
+            <address class="footer-address-link">
+              г. Киев, пр-т Леси Украинки, 26
+            </address>
+          </li>
+          <li class="footer-item link">
+            <a href="mailto:info@devstudio.com" class="footer-mail-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="footer-item link">
+            <a href="tel:+380961111111" class="footer-tel-link"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </div>
     </footer>
