@@ -106,10 +106,23 @@ ol {
   margin-right: 10px;
 }
 
+.mail-icon:hover {
+  color: var(--accent-color);
+}
+.mail-icon:focus {
+  color: var(--accent-color);
+}
+
 .icon-smartphone {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.icon-smartphone:hover {
+  color: var(--accent-color);
+}
+.icon-smartphone:focus {
+  color: var(--accent-color);
 }
 
 .header-communication-link {
@@ -164,12 +177,16 @@ ol {
 .header-link:focus {
   color: var(--accent-color);
 }
-.header-mail:hover,
+.header-mail:hover {
+  color: var(--accent-color);
+}
 .header-mail:focus {
   color: var(--accent-color);
 }
-.header-communication-link :hover,
-.header-communication-link :focus {
+.header-communication-link:hover {
+  color: var(--accent-color);
+}
+.header-communication-link:focus {
   color: var(--accent-color);
 }
 
@@ -325,8 +342,11 @@ ol {
   margin-left: 30px;
 }
 .command-item {
-  border: 1px solid #eeeeee;
+  outline: border -1px -1px solid #eeeeee;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
 }
 
 .command-title {
@@ -352,10 +372,7 @@ ol {
   list-style: none;
   display: flex;
   text-align: center;
-  padding-top: 0;
-  padding-right: 32px;
-  padding-left: 32px;
-  padding-bottom: 30px;
+  justify-content: center;
 }
 .command-social-networks-link {
   display: flex;
@@ -363,6 +380,19 @@ ol {
   align-items: center;
   width: 44px;
   height: 44px;
+  background-color: #ffffff;
+  fill: #afb1b8;
+}
+
+.command-icon {
+  fill: currentColor;
+}
+
+.command-social-networks-link :hover {
+  color: var(--accent-color);
+}
+.command-social-networks-link :focus {
+  color: var(--accent-color);
 }
 
 .command-social-networks-list
@@ -396,9 +426,18 @@ ol {
   height: 92px;
   border: solid 1px #afb1b8;
   align-items: center;
+  background-color: #ffffff;
+  fill: #afb1b8;
 }
 
-.clients-item:hover .clients-item:focus {
+.clients-icon {
+  color: currentColor;
+}
+
+.clients-item:hover {
+  color: var(--accent-color);
+}
+.clients-item:focus {
   color: var(--accent-color);
 }
 
