@@ -387,7 +387,12 @@ ol {
 .command-icon {
   fill: currentColor;
 }
-
+.command-icon:hover {
+  color: #ffffff;
+}
+.command-icon:focus {
+  color: #ffffff;
+}
 .command-social-networks-link :hover {
   color: var(--accent-color);
 }
