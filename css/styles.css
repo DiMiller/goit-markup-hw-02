@@ -467,7 +467,7 @@ ol {
 }
 .client-link:focus {
   color: var(--accent-color);
-  border: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /*----------FOOTER-------------*/
